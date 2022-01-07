@@ -99,8 +99,13 @@ input[type=submit]:hover {
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-     <button><a href="redirect.html">SUBMIT</a></button>
-  </form>
+   <form action=”mailto:contact@yourdomain.com”
+method=”POST”
+enctype=”multipart/form-data”
+name=”EmailForm”>
+<input type=”text” size=”19″ name=”ContactName”><br><br>
+</textarea><br><br> <input type=”submit” value=”Submit”>
+    </form>
 </div>
                     
                 </div>
