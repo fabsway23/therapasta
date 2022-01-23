@@ -52,7 +52,7 @@
                 <div class="text">
                     <h1>leave a message on our website</h1>
                     <br>
-                     <section>
+ <section id="test">
 
     <style>
         section{
@@ -63,6 +63,7 @@
         height: flex;
         width: flex;
         background-color: blueviolet;
+        width: 100%;
         }
         button[type="submit"]{
             width: 100%;
@@ -71,16 +72,16 @@
             padding: 20px;
             font-size: 24px;
             border-radius: 8px;
-            displa: flex;
+            display: flex;
         }
     </style>
 
-<div class="container">
+<div class="container" >
     <form action="">
 
-        <div class="form-group">
+        <div class="form-group" >
             <label for="name">Name</label>
-            <input type="text" id="name" name="name">
+            <input  id="form" type="text" id="name" name="name">
         </div>
         <div class="form-group">
             <label for="email">Email</label>
@@ -96,7 +97,25 @@
 
     </form>
 </div>
+<style>
 
+    #test{
+        max-width:100%;
+    }
+#form{
+    position: relative;
+        max-width:100%
+    }
+    form{
+        max-width: 100%;
+    }
+    .form-group{
+        max-width: 90%;
+    }
+    .container{
+        width:100%
+    }
+</style>
 </section>
                     
     
